@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <title>Decodificador de Texto</title>
+	<link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous" />
+</head>
+
+<body>
+    <main>
+        <div class="logo">
+            <img id="logo" src="imagens/logo.png" alt="logo da Alura" class="logo"> 
+        </div>
+        
+            <div class="textarea">
+                <textarea class="textarea" id="textarea" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
+            </div>
+            
+                <div class="container_minúsculas">
+                    <h2 class="container_minúsculas">Apenas letras minúsculas e sem acento.</h2>
+                </div>
+            	
+            	<div class="container_exclamação">
+            		<img src="imagens/exclamação.png" alt="imagem com a exclamação" class="container_exclamação">
+            	</div>
+
+                <div class="container_botao">
+                    <button class="botao_criptografar" id="botao_criptografar" onclick="criptografar(), removerImagem()">Criptografar</button>
+                </div>
+
+                <div class="container_botao2">
+                	<button class="botao_descriptografar" id="botao_descriptografar" onclick="descriptografar(), removerImagem()">Descriptografar</button>
+                </div>
+        
+        <section class="container_caixa">
+            <div class="container__caixa">
+                <h1 class="container__titulo" id="titulo">Nenhuma mensagem encontrada</h1>
+                <h2 class="container__texto" id="result">Digite um texto que você deseja criptografar ou descriptografar.</h2>
+                <textarea class="area_copiar" style="display: none" cols="20" rows="13" id="myInput"></textarea>                
+                <button class="botao_copiar" id="copiar" style="display: none" onclick="copiar()">Copiar</button>
+                                        
+            </div>
+
+        <div class="container__imagem">
+        	<img src="imagens/lupa.svg" alt="imagem com a lupa" id="lupa" class="container__imagem"> 
+        	</div>   	    
+      	
+      	       
+        <script src="main.js"></script>
+
+    </main>
+
+    <footer>
+		<p class="copyright">&copy; Desenvolvido por Milton Nascimento - 2022 <a href="https://github.com/miltonnotforyou">GitHub</a> <i class="fab fa-github"></i></p>
+
+	</footer>	
+
+</body>
+
+</html>
+

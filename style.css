@@ -1,0 +1,241 @@
+:root {
+    --branco-principal: #FFFFFF;
+    --botao-azul: #0A3871;
+    --cor-de-fundo: #F3F5FC;
+    --botao-azul-efeito: #87a1ef;
+    --font-color: #343A40;
+    --font-principal: 'Inter';    
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    color: var(--botao-azul);
+    font-family: var(--font-principal);
+    font-size: 32px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+}
+
+.logo {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+}
+
+
+.textarea {
+    background-color: var(--cor-de-fundo);
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    border: none;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    resize: none;
+    color: var(--botao-azul);
+    outline: 0;
+  }
+
+.textarea:focus{
+  outline: none;
+}
+
+#textarea::placeholder{
+  color: var(--botao-azul);
+  font-size: 32px;
+  opacity: 1;
+}
+
+.container_caixa{
+    background-color: var(--branco-principal);
+    position: absolute;
+    left: 900px;
+    right: 40px;
+    top: 40px;
+    text-align: center;
+	width: 400px; 
+    margin-left: auto;
+    margin-right: auto; 
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 10em 2em;
+	box-sizing: border-box;
+	border: 3px solid var(--branco-principal);
+	border-radius: 32px;
+    display: inline-block;
+    }
+
+
+
+.container__imagem {
+    display: inline-block;
+    position: absolute;
+    left: 15px;
+    top: 35px
+}
+
+.container__titulo {
+    display: inline-block;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: var(--font-color);
+    left: 15px;
+    top: 400px
+}
+
+.container__texto {
+    display: inline-block;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+    color: var(--font-color);
+    left: 15px;
+    top: 455px
+}
+
+.container_botao {
+    position: absolute;
+    left: 100px;
+    top: 600px;
+}
+
+
+.container_botao2 {
+    position: absolute;
+    left: 500px;
+    top: 600px;
+}
+
+.botao_criptografar {
+    background-color: #0A3871;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    align-items: center;
+    color: var(--branco-principal);
+    display: block;
+    margin-bottom: 1em;
+    height: 67px;
+    width: 328px;
+    left: 0px;
+    top: 0px;
+    border-radius: 24px;
+    border-color: #0A3871;
+    padding: 24px;
+}
+
+.botao_criptografar:hover {
+    border-color: #0A3871;
+    filter: brightness(50%);
+    transform: scale(1.2);
+}
+
+.botao_descriptografar {
+    background-color: #D8DFE8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    align-items: center;
+    color: #0A3871;
+    display: block;
+    margin-bottom: 1em;
+    height: 67px;
+    width: 328px;
+    left: 30px;
+    top: 0px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px;
+}
+
+.botao_descriptografar:hover {
+    border-color: #0A3871;
+    filter: brightness(50%);
+    transform: scale(1.2);
+}
+.botao_copiar {
+    background-color: var(--branco-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.36px;
+    flex-direction: row;
+    position: absolute;
+    align-items: center;
+    color: #0A3871;
+    margin-bottom: 1em;
+    height: 67px;
+    width: 328px;
+    left: 30px;
+    top: 550px;
+    border-color: #0A3871;
+    border-radius: 24px;
+    padding: 24px
+}
+
+
+.botao_copiar:hover {
+    border-color: #0A3871;
+    filter: brightness(50%);
+    transform: scale(1.2);
+}
+
+
+
+.container_exclamação {
+    position: absolute;
+    left: 55px;
+    top: 280px;
+}
+
+.container_minúsculas {
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    left: 60px;
+    top: 280px;
+    color: var(--font-color);
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    width: 252px;
+    height: 18px;
+}
+
+.area_copiar {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    border: none;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 150%;
+    resize: none;
+    color: var(--botao-azul);
+    outline: 0;
+  }
+
+footer {
+    text-decoration: none;
+    position: absolute;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%;
+    left: 60px;
+    top: 670px;
+    color: var(--font-color);
+    display: inline-block;
+    flex-direction: row;
+    align-items: center;
+}
+
+
