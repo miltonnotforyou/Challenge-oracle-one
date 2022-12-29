@@ -26,8 +26,11 @@ Extras:
 
 ## [Video do desafio](https://www.youtube.com/watch?v=VwVC_bLcOGE)
 
+![decodificador](https://user-images.githubusercontent.com/67373586/209947699-272b0c5f-f1cf-4807-ba86-f113e3032144.gif)
+
 ![image](https://user-images.githubusercontent.com/67373586/209824086-f34e32cf-ed8c-4e3e-b155-9ba81c412f3d.png)
 
 ![image](https://user-images.githubusercontent.com/67373586/209824261-86d90ab2-6f37-496f-9ddd-5fce621db821.png)
+
 
 
