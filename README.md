@@ -1,4 +1,4 @@
-# Challenge-oracle-one
+# Criptografia de textos
 Repositório para entrega do Challenge da formação Oracle One + Alura  turma 4
 
 Esta é uma aplicação que criptografa textos, assim você poderá trocar mensagens secretas com outras pessoas que saibam o segredo da criptografia utilizada.
